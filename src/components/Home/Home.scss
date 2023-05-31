@@ -1,0 +1,36 @@
+table {
+  margin: 5%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.col1, .col3 {
+  width: 40%;
+}
+
+.col2 {
+  width: 20%;
+}
+
+.priceTag {
+  text-align: right;
+  padding-right: 4%;
+}
+
+.button {
+  background-color: lightgray;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
